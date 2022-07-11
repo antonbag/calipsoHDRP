@@ -311,11 +311,11 @@ Material:
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 1
-    - _metallic: 0
-    - _normalStrength: 2
+    - _metallic: 0.407
+    - _normalStrength: 0.72
     - _offsetTimeX: 0
     - _offsetTimeY: 0
-    - _tiletext: 1.04
+    - _tiletext: 0.88
     - _vertexPosMultiply: 0
     m_Colors:
     - _BaseColor: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}

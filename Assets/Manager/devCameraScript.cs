@@ -20,6 +20,12 @@ public class devCameraScript : MonoBehaviour
     private float totalRun = 1.0f;
 
 
+
+
+
+
+
+
     void Awake() {
         //cm = GameObject.Find("CalipsoManager").GetComponent<CalipsoManager>();
         cm =  FindObjectOfType<calipsoManager>();
@@ -74,10 +80,10 @@ public class devCameraScript : MonoBehaviour
 
 
             //Mouse  camera angle done.  
-            var mouseMoveY = invertY ? -1 * Input.GetAxis("Mouse Y") : Input.GetAxis("Mouse Y");
-            var mouseMoveX = Input.GetAxis("Mouse X");
+            float mouseMoveY = invertY ? -1 * Input.GetAxis("Mouse Y") : Input.GetAxis("Mouse Y");
+            float mouseMoveX = Input.GetAxis("Mouse X");
 
-            var mouseMove = new Vector3(mouseMoveY*3.0f, mouseMoveX, 0) * 0.50f;
+            Vector3 mouseMove = new Vector3(mouseMoveY*4.0f, mouseMoveX, 0) * 0.50f;
             transform.eulerAngles = transform.eulerAngles + mouseMove;
             
 

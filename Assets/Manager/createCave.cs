@@ -123,12 +123,12 @@ public class createCave : MonoBehaviour
                 //Agregar a parent
                 instaTile.transform.SetParent (transform, false);
 
-                Color randomColor = new Color(Random.Range(0.0f, 0.1f), Random.Range(0.0f, 0.1f), Random.Range(0.0f, 0.1f), Random.Range(1.0f, 1.0f));
+                Color randomColor = new Color(Random.Range(0.0f, 0.05f), Random.Range(0.0f, 0.05f), Random.Range(0.0f, 0.05f), Random.Range(1.0f, 1.0f));
 
                 //material del tile
                 instaTile.GetComponentInChildren<Renderer>().material = materials[materialOfTheSeason];
                 instaTile.GetComponentInChildren<Renderer>().material.SetFloat("_metallic", Random.Range(0f, 1f));
-                instaTile.GetComponentInChildren<Renderer>().material.SetColor("_emission", randomColor);
+                //instaTile.GetComponentInChildren<Renderer>().material.SetColor("_emission", randomColor);
                 instaTile.GetComponentInChildren<Renderer>().sharedMaterial.SetFloat("_offsetTimeY", 0f);
                 instaTile.GetComponentInChildren<Renderer>().sharedMaterial.SetFloat("_offsetTimeX", 0f);
 

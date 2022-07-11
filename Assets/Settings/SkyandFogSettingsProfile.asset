@@ -236,7 +236,7 @@ MonoBehaviour:
     m_Value: 0
   color:
     m_OverrideState: 1
-    m_Value: {r: 0.0039215647, g: 0.0189469, b: 0.13333334, a: 1}
+    m_Value: {r: 0.066037714, g: 0.04220803, b: 0.03270736, a: 1}
   tint:
     m_OverrideState: 1
     m_Value: {r: 0.12495552, g: 0.15520944, b: 0.6792453, a: 1}
@@ -257,7 +257,7 @@ MonoBehaviour:
     m_Value: 1.17
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 9.6
+    m_Value: 6
   meanFreePath:
     m_OverrideState: 1
     m_Value: 13.19
@@ -336,12 +336,12 @@ MonoBehaviour:
   active: 0
   skyType:
     m_OverrideState: 0
-    m_Value: 4
+    m_Value: 0
   cloudType:
     m_OverrideState: 0
     m_Value: 0
   skyAmbientMode:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   windOrientation:
     m_OverrideState: 0
